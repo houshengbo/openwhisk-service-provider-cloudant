@@ -1,1 +1,6 @@
 mode: deploy
+serviceprovider:
+  cloudanttrigger:
+    port: 11000
+  alarmstrigger:
+    port: 11001
