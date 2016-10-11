@@ -2,6 +2,6 @@
 # This playbook deploys the cloudant trigger service  
 
 # Deploy cloudant trigger
-- hosts: serviceprovider
+- hosts: localhost
   roles:
   - buildservice
