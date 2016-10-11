@@ -1,0 +1,7 @@
+---
+# This role will install cloudant trigger service in group 'catalog' in the environment inventory
+# In deploy mode it will deploy the cloudant trigger service.
+# In clean mode it will remove the cloudant trigger service container.
+
+- include: deploy.yml
+  when: mode == "deploy"
