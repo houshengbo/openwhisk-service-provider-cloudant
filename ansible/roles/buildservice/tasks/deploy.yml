@@ -1,0 +1,2 @@
+- name: build the service provider
+  shell: ./gradlew distDocker chdir="/home/vagrant/openwhisk-service-provider-cloudant"

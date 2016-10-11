@@ -1,2 +1,5 @@
-- name: build the service provider
-  shell: ./gradlew distDocker chdir="../"
+#- name: build the service provider
+#  shell: ./gradlew distDocker chdir="../"
+
+  
+- include: buildservice.yml
