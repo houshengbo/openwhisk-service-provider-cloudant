@@ -1,0 +1,12 @@
+# Eclipse
+bin/
+**/.project
+.settings/
+.classpath
+.cache-main
+
+
+# Gradle
+.gradle
+build/
+!/tools/build/
